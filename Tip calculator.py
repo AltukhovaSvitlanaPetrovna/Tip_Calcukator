@@ -1,0 +1,6 @@
+people = int(input("Enter number of people, who visited our restaurant today: "))
+bill = float(input("What is your final bill?: "))
+tips = float(input("Amount of tips, that you want to leave for our waiters (10%, 12%, 15%, 20%): "))
+final_bill = (bill/people)*(tips/100)
+print("___________________________________________________________________________________________")
+print(f"Based on, your answers, you finall bill will be:{round(final_bill,2)} ")
